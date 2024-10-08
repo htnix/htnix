@@ -11,3 +11,15 @@ h1{
     width: 100%;
     color:saddlebrown;
 }
+
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; 
+} 
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: rgb(0, 5, 80); 
+    border-radius: 25%;
+}
