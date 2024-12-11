@@ -1,14 +1,10 @@
 body{
     background-color:lemonchiffon;
-    front-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:25px;
 }
 h1{
     text-align: center;
-    color:saddlebrown;
-}
-.about{
-    text-align: right;
-    width: 100%;
     color:saddlebrown;
 }
 
@@ -20,8 +16,12 @@ h1{
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: rgb(0, 5, 80); 
+    background: rgba(87, 93, 208, 0.466); 
     border-radius: 25%;
+}
+.project p{
+    text-align:center;
+    margin:30px;
 }
 .project img{
     width: 300px;
@@ -35,8 +35,31 @@ h1{
 a { /* change the appearance of ALL links */
     text-decoration: none;
     color: black;
+    text-align: center;
     }
     .project p { /* change the appearance of paragraph tags inside .project divs */
     text-align: center;
-    margin: 15px;
+    margin: 20px;
+    }
+
+    .about{
+        display:flex;
+        flex-wrap: wrap;
+        margin-right:100px;
+        margin-left:100px;
+        justify-content: center;
+    }
+
+    .about p{
+        width:50%;
+        text-align: center;
+        margin: auto;
+        line-height: 125%;
+    }
+
+    .about img{
+        width: 300px;
+        height: 400px;
+        border-radius: 25%;
+        border: 2px solid rgba(87, 93, 208, 0.466);
     }
